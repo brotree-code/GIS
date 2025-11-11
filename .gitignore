@@ -2,3 +2,70 @@
 .Rhistory
 .RData
 .Ruserdata
+# ================================
+# 📦 R / 数据分析项目 .gitignore 模板
+# 包含地理数据 + 表格数据 + R Markdown 输出
+# ================================
+
+# 🗺️ 栅格数据
+*.tif
+*.tiff
+*.img
+*.grd
+*.aux
+*.ovr
+*.xml
+*.tfw
+
+# 📍 矢量数据
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.gpkg
+*.kml
+*.kmz
+
+# 📊 表格 / 数据文件
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.ods
+*.sav
+*.dta
+*.rds
+*.rda
+*.feather
+*.parquet
+
+# 🗃️ 数据库 / 空间索引
+*.sqlite
+*.db
+*.gdb
+*.mdb
+
+# 🧮 临时计算结果 / 缓存
+*_cache/
+*_files/
+*.html
+*.docx
+*.pdf
+*.knit.md
+*.utf8.md
+
+# 🧰 RStudio 文件
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rapp.history
+.Rprofile
+
+# 🔧 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
