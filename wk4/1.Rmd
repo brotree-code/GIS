@@ -1,0 +1,19 @@
+---
+title: "Untitled"
+output:
+  pdf_document: default
+  html_document: default
+date: "2025-11-11"
+---
+
+
+
+
+```{r}
+library(terra)
+library(here)
+jan <-terra::rast(here("wk4", "WC",  "wc2.1_5m_prec_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
+```
+
