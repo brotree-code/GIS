@@ -58,7 +58,6 @@
 *.utf8.md
 
 # 🧰 RStudio 文件
-.Rproj
 .Rhistory
 .RData
 .Ruserdata
